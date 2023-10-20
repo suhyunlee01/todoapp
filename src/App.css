@@ -1,4 +1,6 @@
+
 .App {
+  padding: 100px;
   text-align: center;
 }
 
@@ -35,4 +37,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.global_nav_container_content_textbtn,
+.global_nav_container_content_otherbtn,
+.sign_in,
+.profile {
+    overflow: hidden; /* 내용이 넘칠 경우 숨김 */
+    text-overflow: ellipsis; /* 텍스트가 넘칠 경우 마침표(...)로 표시 */
+    white-space: nowrap; /* 텍스트가 넘칠 경우 줄바꿈 방지 */
 }

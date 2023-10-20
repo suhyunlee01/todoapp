@@ -1,0 +1,28 @@
+.todolistItem{
+    display: flex;
+    width: 100% - 10;
+    justify-content: space-between;
+    align-items: center;
+}
+.todolistItem_container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 14px;
+}
+.line{
+    text-decoration: line-through;
+    color: gray;
+}
+.btnRemove{
+    border: none;
+    background-color: white;
+    padding: 8px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 8px;
+    &:hover{
+        background-color: #e44f4f;
+        color: white;
+    }
+}
